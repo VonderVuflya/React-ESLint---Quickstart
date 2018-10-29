@@ -1,0 +1,15 @@
+{
+  "parser": "eslint",
+  "plugins": ["fp", "react"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:fp/recommended",
+    "plugin:react/recommended",
+    "react-app"
+  ],
+  "rules": {
+    "no-unused-vars": "error",
+    "no-var": "error",
+    "fp/no-let": "error"
+  }
+}
